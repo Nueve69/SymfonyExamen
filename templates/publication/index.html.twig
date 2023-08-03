@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<h1>Liste des publications</h1>
+	<ul>
+		{% for publication in publications %}
+			<li>{{ publication.title }}</li>
+		{% endfor %}
+	</ul>
+{% endblock %}

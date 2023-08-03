@@ -1,0 +1,5 @@
+App\Entity\Publication:
+  publication_{1..10}:
+    createdAt: '<dateTimeBetween("-1 year")>'
+    title: '<sentence(5)>'
+    content: '<paragraph(3)>'
